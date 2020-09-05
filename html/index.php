@@ -166,7 +166,7 @@ h1 {
 </style>
 <html>
 
-<form action="" class="search-bar">
+<form action="result.php" method="POST" class="search-bar">
     <h1> Check Stock </h1>
 	<input type="search" name="search" pattern=".*\S.*" required>
 	<button class="search-btn" type="submit">
