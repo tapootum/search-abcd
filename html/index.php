@@ -161,6 +161,7 @@ body {
 }
 </style>
 <html>
+<h1> Check Stock </h1>
 <form action="" class="search-bar">
 	<input type="search" name="search" pattern=".*\S.*" required>
 	<button class="search-btn" type="submit">
