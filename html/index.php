@@ -3,13 +3,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <html>
-<div class="flexbox">
-  <div class="search">
-    <h1>Search this site</h1>
-    <h3>Click on search icon, then type your keyword.</h3>
-    <div>
-      <input type="text" placeholder="Search . . ." required>
-    </div>
-  </div>
-</div>
+<form action="" class="search-bar">
+	<input type="search" name="search" pattern=".*\S.*" required>
+	<button class="search-btn" type="submit">
+		<span>Search</span>
+	</button>
+</form>
 </html>
