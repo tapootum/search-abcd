@@ -160,14 +160,12 @@ body {
 	}
 }
 h1 {
-  color: blue;
-  font-family: verdana;
-  font-size: 300%;
+  color: #e6f5ff;
+  font-size: 200%;
 }
 </style>
 <html>
 
-<h1> Check Stock </h1>
 <form action="" class="search-bar">
     <h1> Check Stock </h1>
 	<input type="search" name="search" pattern=".*\S.*" required>
